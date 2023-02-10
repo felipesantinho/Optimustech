@@ -1,0 +1,109 @@
+.navbar {
+  margin: 1em auto;
+  background: var(--branco);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0em 2em;
+}
+
+.navbar__logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0em;
+  gap: 0.5em;
+}
+
+.navbar__logo > p {
+  font-family: var(--fonte-principal);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--cinza-escuro);
+}
+
+.navbar__links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0em;
+  gap: 2.5em;
+}
+
+.navbar__links > a {
+  font-family: var(--fonte-principal);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: var(--cinza-claro);
+  transition-property: font-weight, font-size, color;
+  transition-duration: 1s;
+}
+
+.navbar__links-home:hover, .navbar__links-produtos:hover, .navbar__links-recursos:hover, .navbar__links-sobre:hover {
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--vinho);
+} 
+
+.navbar__botoes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0em;
+  gap: 0.75em;
+}
+
+.navbar__botoes-entrar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 18px;
+  gap: 8px;
+  border: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--cinza-claro);
+  background-color: var(--branco);
+  transition-property: font-weight, color;
+}
+
+.navbar__botoes-entrar:hover {
+  font-weight: bold;
+  color: var(--vinho);
+}
+
+.navbar__botoes-cadastrar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 18px;
+  gap: 8px;
+  background: var(--vinho);
+  border: 1px solid var(--vinho);
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--branco);
+  transition-property: font-weight, backgroundcolor;
+}
+
+.navbar__botoes-cadastrar:hover {
+  font-weight: bold;
+  background-color: var(--vinho-claro);
+}

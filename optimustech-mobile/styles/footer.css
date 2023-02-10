@@ -1,0 +1,127 @@
+.formulario {
+  margin: 4em 0em 0em 0em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 46px 0px;
+  gap: 32px;
+  background: var(--fundo-footer);
+}
+
+.formulario__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 32px;
+  gap: 32px;
+}
+
+.formulario__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 40px;
+}
+
+.formulario__content-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+}
+
+.formulario__content-heading > h2 {
+  font-family: var(--fonte-principal);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: var(--cinza);
+}
+
+.formulario__content-heading > p {
+  font-family: var(--fonte-principal);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: var(--cinza-claro)
+}
+
+.formulario__content-email {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+}
+
+.formulario__content-email-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.formulario__content-email-input > input {
+  padding: 6px 10px;
+  font-family: var(--fonte-principal);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--cinza-claro);
+  background: var(--branco);
+  border: 1px solid #D0D5DD;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+.formulario__content-email-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.formulario__content-email-button > button {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 10px;
+  gap: 8px;
+  background: var(--vinho);
+  border: 1px solid var(--vinho);
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  font-family: var(--fonte-principal);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--branco);
+  transition-property: font-weight, backgroundcolor;
+}
+
+.formulario__content-email-button:hover > button {
+  font-weight: bold;
+  background-color: var(--vinho-claro);
+}
+
+.formulario > p {
+  font-family: var(--fonte-principal);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #98A2B3;
+}

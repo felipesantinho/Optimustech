@@ -1,0 +1,15 @@
+@import url("navbar.css");
+@import url("header.css");
+@import url("main.css");
+@import url("footer.css");
+
+:root {
+  --branco: #FFFFFF;
+  --cinza: #101828;
+  --cinza-escuro: #3A404E;
+  --cinza-claro: #667085;
+  --vinho: #8E2424;
+  --vinho-claro: #6e3232;
+  --fundo-footer: #F9FAFB;;
+  --fonte-principal: "Inter";
+}
