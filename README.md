@@ -7,4 +7,4 @@
 [Link do projeto versão mobile](https://felipesantinho.github.io/Optimustech/optimustech-mobile/)
 
 ### Descrição
- Criação de uma página web responsiva inicial para uma suposta empresa tech de contratação.
+ Criação de uma página web em duas versões, uma para desktop e outra para mobile, para uma suposta empresa tech de contratação.
